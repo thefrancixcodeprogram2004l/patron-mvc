@@ -20,6 +20,7 @@ void Vista::actualizarnota()
     }while(nota<0 || nota>10);
     controlador->actualizarnota(opc,nota);
     cout<<"La nota a sido "<<opc <<" actualizada";
+    cout<<"Gracias\n";
 }
 void Vista::imprimir()
 {

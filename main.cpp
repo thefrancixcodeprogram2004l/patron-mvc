@@ -25,6 +25,9 @@ int main()
       case 3:
             cout<<"Adios....!!!"<<endl;
             break;
+      case 4 :
+            cout<<"Deseas hacer algo mas\n";
+            break;
         }
 
     }while(opc!=3);
